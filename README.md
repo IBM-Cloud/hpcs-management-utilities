@@ -1,6 +1,6 @@
 IBM Cloud™ Hyper Protect Crypto Services (Hyper Protect Crypto Services for short) is a dedicated key management service and hardware security module (HSM). It is designed to enable you to take control of your cloud data encryption keys and cloud hardware security modules, and is the only service in the industry built on FIPS 140-2 Level 4-certified hardware. For an introduction to the service, see [service overview](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-overview).
 
-Follow the [instruction on service provisioning](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-provision) to provision a service instance of Hyper Protect Crypto Services in IBM Cloud.
+Follow [the instruction on service provisioning](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-provision) to provision a service instance of Hyper Protect Crypto Services in IBM Cloud.
 
 After you provision a service instance, you need to initialize your service instance by loading the master key. You can choose to load the master key using the Management Utilities or from your workstation using the IBM Cloud Trusted Key Entry (TKE) CLI plug-in.
 
