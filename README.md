@@ -16,8 +16,8 @@ For detailed instruction on how to set up the Management Utilities, including sm
 ## Files included in this repository
 [Release v1.0.0.0](https://github.com/IBM-Cloud/hpcs-management-utilities/releases) of this repository contains the installation file `cloudtke.bin` to set up the Hyper Protect Crypto Services Management Utilities. 
 
-The following files are also included in the repository to enable code signing and verification. This is to ensure the integrity and authencity of `cloudtke.bin` after being downloaded:
-  * `cloudtke.sig`: The hash code that signs `cloudtke.bin` with Secure Hash Algorithm 256 (SHA-256).
+The following files are also included in the repository to enable signed code verification. This is to ensure the integrity and authencity of `cloudtke.bin` after being downloaded:
+  * `cloudtke.sig`: The signed cryptographic hash of cloudtke.bin (SHA-256).
   * `digicert_cert.pem`: An intermediate Secure Sockets Layer (SSL) certificate to prove the Management Utilities signing certificate.
   * `signing_cert.pem`: The signing certificate of the Management Utilities.
   
