@@ -18,7 +18,7 @@ For detailed instruction on how to set up the Management Utilities, including sm
 
 The following files are also included in the repository to enable signed code verification. This is to ensure the integrity and authencity of `cloudtke.bin` after being downloaded:
   * `cloudtke.sig`: The signed cryptographic hash of cloudtke.bin (SHA-256).
-  * `digicert_cert.pem`: An intermediate Secure Sockets Layer (SSL) certificate to prove the Management Utilities signing certificate.
+  * `digicert_cert.pem`: An intermediate code signing certificate to prove the Management Utilities signing certificate.
   * `signing_cert.pem`: The signing certificate of the Management Utilities.
   
 For detailed steps of verifying the signature and installing the Management Utility, refer to [the Management Utilities installation instructions](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-prepare-management-utilities#install-management-utility-application).
