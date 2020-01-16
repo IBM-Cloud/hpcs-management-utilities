@@ -21,4 +21,4 @@ The following files are also included in the repository to enable code signing a
   * `digicert_cert.pem`: An intermediate Secure Sockets Layer (SSL) certificate to prove the {{site.data.keyword.IBM_notm}} signing certificate.
   * `signing_cert.pem`: {{site.data.keyword.IBM_notm}} code signing certificate, which is unique for Management Utilities.
   
-For detailed steps of verifying the signature and installing the Management Utility, refer to (the Management Utilities installation instructions)[https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-prepare-management-utilities#install-management-utility-application].
+For detailed steps of verifying the signature and installing the Management Utility, refer to [the Management Utilities installation instructions](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-prepare-management-utilities#install-management-utility-application).
