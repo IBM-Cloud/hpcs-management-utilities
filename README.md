@@ -14,7 +14,7 @@ If you need a highly secured environment to protect sensitive data and need to m
 For detailed instruction on how to set up the Management Utilities, including smart cards, smart card readers, TKE client application, and Smart card utility application, see [Setting up Management Utilities](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-prepare-management-utilities).
 
 ## Files included in this repository
-[Release v1.0.0.0](https://github.com/IBM-Cloud/hpcs-management-utilities/releases) of this repository contains the installation file `cloudtke.bin` to set up the Hyper Protect Crypto Services Management Utilities. 
+[The Release tab](https://github.com/IBM-Cloud/hpcs-management-utilities/releases) of this repository contains the latest installation file `cloudtke.bin` to set up the Hyper Protect Crypto Services Management Utilities. 
 
 The following files are also included in the repository to enable signed code verification. This is to ensure the integrity and authencity of `cloudtke.bin` after being downloaded:
   * `cloudtke.sig`: The signed cryptographic hash of cloudtke.bin (SHA-256).
